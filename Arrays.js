@@ -39,13 +39,31 @@
 //var palabraArreglada=palabraSeparada.join('');
 //console.log(palabraArreglada);
 
-var numeros = [1, 2, 3, 4];
-numeros.forEach((num) => {
-    if (num === 3) {
-        console.log(num);
+//var numeros = [1, 2, 3, 4];
+//numeros.forEach((num) => {
+//    if (num === 3) {
+//        console.log(num);
+//    }
+//});
 
+//var numeros = [1,2,3,4];
+//var masUno = numeros.map((num) => {
+//    return num+1;
+//});
+//console.log(masUno);
+
+//var arr = [1,2,3,4,5];
+//for (var i=0; i<arr.length; i++) {
+//    console.log(arr[i]);
+//}
+
+function encontrarLetraP (string) {
+    var letras = string.split ('');
+    for (let i = 0; i<letras.length; i++) {
+        if (letras [i] === 'P') {
+            console.log ('Si contiene P');
+        }  
     }
-});
-
-
-
+}
+encontrarLetraP('javaScript');
+encontrarLetraP('Henry');
